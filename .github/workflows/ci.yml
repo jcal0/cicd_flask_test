@@ -29,4 +29,4 @@ jobs:
       if: github.ref == 'refs/heads/dev'
       run: |
         .\env\Scripts\activate.bat
-        python app.py
+        python main.py
