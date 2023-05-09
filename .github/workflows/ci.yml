@@ -29,4 +29,4 @@ jobs:
       if: github.ref == 'refs/heads/dev'
       run: |
         .\env\Scripts\activate.bat
-        start /B python main.py
+        start "My Python Script" /B python main.py
